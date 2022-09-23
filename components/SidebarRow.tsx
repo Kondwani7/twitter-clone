@@ -12,7 +12,12 @@ function SidebarRow({Icon, title}:Props) {
             px-4 py-3 transition-all duration-200 hover:bg-gray-100'
     >
       <Icon fontSize={30}/>
-      <p className='group-hover:text-twitter'>{title}</p>
+      <p 
+        className='hidden group-hover:text-twitter md:inline-flex
+          font-normal lg: text-xl
+        '>
+        {title}
+      </p>
     </div>
   )
 }

@@ -10,8 +10,8 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
   return (
-    <div className=' col-span-2 flex flex-col'>
-      <div  style={{width: '30px', height: '30px', position: 'relative'}}>
+    <div className=' col-span-2 flex flex-col item-center px-4 md:items-start'>
+      <div className='mt-2 -right-4'  style={{width: '30px', height: '30px', position: 'relative'}}>
         <Image src='/img/twitter.png' width={10} height={10} layout='fill' alt="logo"/>
       </div>
       
