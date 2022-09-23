@@ -23,6 +23,10 @@ function Sidebar() {
         <SidebarRow Icon={BsListTask} title='Lists'/>
         <SidebarRow Icon={AiOutlineUser} title='Profile'/>
         <SidebarRow Icon={FiMoreHorizontal} title='More'/>
+        <button 
+          className='bg-twitter hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
+            Tweet
+          </button>
         <SidebarRow Icon={BiUserPlus} title='Sign In'/>
     </div>
   )
