@@ -10,8 +10,11 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
   return (
-    <div>
-      <Image src='/img/twitter.png' width={30} height={30} alt="logo"/>
+    <div className=' col-span-2 flex flex-col'>
+      <div  style={{width: '30px', height: '30px', position: 'relative'}}>
+        <Image src='/img/twitter.png' width={10} height={10} layout='fill' alt="logo"/>
+      </div>
+      
         <SidebarRow Icon={RiHome7Fill} title='Home'/>
         <SidebarRow Icon={BsHash} title='Explore'/>
         <SidebarRow Icon={VscBellDot} title='Notifications'/>
